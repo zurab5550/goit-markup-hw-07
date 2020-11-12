@@ -1,0 +1,57 @@
+.container-function {
+  outline: 2px solid tomato;
+  padding-top: 94px;
+}
+.function-list {
+  display: flex;
+  justify-content: space-between;
+}
+.function-item::before {
+  content: "";
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.sputnik::before {
+  background-image: url(../img/sputnik.svg);
+}
+
+.clock::before {
+  background-image: url(../img/clock.svg);
+}
+.comp::before {
+  background-image: url(../img/comp.svg);
+}
+
+.spaceman::before {
+  background-image: url(../img/spaceman.svg);
+}
+
+.function-title {
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primary-text-color;
+}
+
+.function-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: $secondary-text-color;
+}

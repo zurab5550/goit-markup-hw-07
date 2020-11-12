@@ -1,0 +1,39 @@
+/* osnovnoy cvet teksta #212121; */
+/* vtorichniy cvet teksta #757575; */
+/* akcent #2196F3; */
+/* beliy #FFFFFF; */
+
+/* spriatat element */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin-right: auto;
+  margin-left: auto;
+}

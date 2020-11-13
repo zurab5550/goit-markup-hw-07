@@ -23,7 +23,7 @@
   background: rgba(255, 255, 255, 0.1);
 
   &:hover,
-  :focus {
+  &:focus {
     background-color: $accent-color;
   }
 }
@@ -85,7 +85,7 @@
   color: rgba(255, 255, 255, 0.6);
 
   &:hover,
-  :focus {
+  &:focus {
     color: $accent-color;
   }
 }
@@ -124,7 +124,7 @@
   border-radius: 4px;
 
   &:hover,
-  :focus {
+  &:focus {
     background-color: $accent-color;
   }
 }

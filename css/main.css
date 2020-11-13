@@ -315,8 +315,7 @@ body {
   position: relative;
 }
 
-.site-nav .link:hover,
-.site-nav .link :focus {
+.site-nav .link:hover, .site-nav .link:focus {
   color: #2196f3;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -326,8 +325,7 @@ body {
   text-decoration: none;
 }
 
-.site-nav .link-current:hover,
-.site-nav .link-current :focus {
+.site-nav .link-current:hover, .site-nav .link-current:focus {
   color: #2196f3;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -359,8 +357,7 @@ body {
   text-decoration: none;
 }
 
-.contacts .link:hover,
-.contacts .link :focus {
+.contacts .link:hover, .contacts .link:focus {
   color: #2196f3;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -615,8 +612,7 @@ body {
   outline: 2px solid red;
 }
 
-.social-networks-list-link:hover,
-.social-networks-list-link :focus {
+.social-networks-list-link:hover, .social-networks-list-link:focus {
   background-color: #2196f3;
 }
 
@@ -627,11 +623,6 @@ body {
 .social-networks-list-link:hover .social-networks-list-icon,
 .social-networks-list-link:focus .social-networks-list-icon {
   fill: #ffffff;
-}
-
-.social-networks-list-item:hover .social-networks-list-link,
-.social-networks-list-item:focus .social-networks-list-link {
-  background-color: #2196f3;
 }
 
 .team-title .section-title {
@@ -704,13 +695,12 @@ body {
   width: 100%;
   height: 90px;
   border: 1px solid #afb1b8;
-  box-sizing: border-box;
   border-radius: 4px;
 }
 
-.clients-link:hover,
-.clients-link :focus {
+.clients-link:hover, .clients-link:focus {
   border-color: #2196f3;
+  outline-color: #2196f3;
 }
 
 .clients-icon {
@@ -747,8 +737,7 @@ body {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.social-footer-link:hover,
-.social-footer-link :focus {
+.social-footer-link:hover, .social-footer-link:focus {
   background-color: #2196f3;
 }
 
@@ -809,8 +798,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-list-contacts .link:hover,
-.footer-list-contacts .link :focus {
+.footer-list-contacts .link:hover, .footer-list-contacts .link:focus {
   color: #2196f3;
 }
 
@@ -848,8 +836,7 @@ body {
   border-radius: 4px;
 }
 
-.footer .button:hover,
-.footer .button :focus {
+.footer .button:hover, .footer .button:focus {
   background-color: #2196f3;
 }
 

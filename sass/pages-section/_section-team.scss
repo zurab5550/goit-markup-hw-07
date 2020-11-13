@@ -78,23 +78,18 @@
   outline: 2px solid red;
 
   &:hover,
-  :focus {
+  &:focus {
     background-color: $accent-color;
   }
 
   & {
     transition: fill $duration $timming-function;
   }
-}
 
-.social-networks-list-link:hover .social-networks-list-icon,
-.social-networks-list-link:focus .social-networks-list-icon {
-  fill: $white-color;
-}
-
-.social-networks-list-item:hover .social-networks-list-link,
-.social-networks-list-item:focus .social-networks-list-link {
-  background-color: $accent-color;
+  &:hover .social-networks-list-icon,
+  &:focus .social-networks-list-icon {
+    fill: $white-color;
+  }
 }
 
 .team-title .section-title {
